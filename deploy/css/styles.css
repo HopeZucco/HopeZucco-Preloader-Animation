@@ -2,10 +2,6 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
-html {
-  font-size: 100%;
-}
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -423,3 +419,14 @@ textarea {
 /* =============
     Footer
 ============= */
+#preloader-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+#preloader-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
